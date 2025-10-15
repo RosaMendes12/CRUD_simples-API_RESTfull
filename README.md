@@ -95,7 +95,7 @@ Body (JSON):
 
 JSON
 
-{
+{   <br>
   "name": "Maria Oliveira",  <br>
   "idade": 28,   <br>
   "cpf": "000.111.222-33",   <br>
@@ -110,7 +110,7 @@ Body (JSON):
 
 JSON
 
-{
+{     <br>
   "name": "Maria Oliveira (Atualizada)",  <br>
   "idade": 29,
   "cpf": "000.111.222-33",     <br>
