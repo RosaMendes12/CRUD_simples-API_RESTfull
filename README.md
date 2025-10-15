@@ -25,7 +25,7 @@ Pré-requisitos
 * Um servidor MySQL acessível.
 * Maven configurado (ou use a integração de sua IDE).
 
-**1. Configurar o Banco de Dados**
+**Configurar o Banco de Dados**
 
 * Crie um banco de dados no MySQL (Ex: portifolio_db).
 
@@ -42,7 +42,7 @@ spring.datasource.username=seu_usuario_mysql<br>
 spring.datasource.password=sua_senha_mysql<br>
 spring.jpa.hibernate.ddl-auto=update # Cria/atualiza a tabela 'funcionarios' automaticamente<br>
 
-**2. Executar a Aplicação** <br>
+**Executar a Aplicação** <br>
 A aplicação pode ser iniciada diretamente pela sua IDE (executando a classe principal) ou via terminal:
 
 **Bash**
