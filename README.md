@@ -4,7 +4,7 @@ Este projeto é uma API RESTful para gerenciamento de funcionários, implementan
 
 🛠️ **Tecnologias Utilizadas**
 
-Java	Versão 21
+Java	Versão 21 <br>
 Spring Boot	Framework principal para construção da API REST.
 Spring Data JPA	Para persistência de dados e operações CRUD simplificadas.
 MySQL	Banco de dados relacional utilizado para armazenamento.
