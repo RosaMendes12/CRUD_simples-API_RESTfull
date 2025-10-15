@@ -31,7 +31,7 @@ Pré-requisitos
 
 * Configure as credenciais de acesso no arquivo de propriedades do Spring (application.properties ou application.yml).
 
-Exemplo de Configuração:
+**Exemplo de Configuração:**
 
 ## 📝 Properties
 
