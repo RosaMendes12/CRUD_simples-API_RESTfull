@@ -109,10 +109,10 @@ Body (JSON):
 JSON
 
 {
-  "name": "Maria Oliveira (Atualizada)",
+  "name": "Maria Oliveira (Atualizada)",  <br>
   "idade": 29,
-  "cpf": "000.111.222-33",
-  "cargo": "Gerente de RH"
+  "cpf": "000.111.222-33",     <br>
+  "cargo": "Gerente de RH"   <br>
 }
 ⚙️ **Estrutura do Projeto**
 O projeto segue a estrutura padrão do Spring Boot:
