@@ -32,9 +32,10 @@ Configure as credenciais de acesso no arquivo de propriedades do Spring (applica
 
 Exemplo de Configuração:
 
-## Properties
+## 📝 Properties
 
- ##Exemplo em application.properties
+ **Exemplo em application.properties**
+ 
 spring.datasource.url=jdbc:mysql://localhost:3306/portifolio_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC <br>
 spring.datasource.username=seu_usuario_mysql<br>
 spring.datasource.password=sua_senha_mysql<br>
@@ -50,8 +51,8 @@ A aplicação pode ser iniciada diretamente pela sua IDE (executando a classe pr
 ```mvn clean package ```
 
 # Executar o arquivo JAR gerado
-java -jar target/portifolio-0.0.1-SNAPSHOT.jar
-A API estará em execução na porta padrão do Spring: http://localhost:8080.
+java -jar target/portifolio-0.0.1-SNAPSHOT.jar <br>
+A API estará em execução na porta padrão do Spring: http://localhost:8080.<br>
 
 🧭 **Documentação e Endpoints**
 Após a execução, a documentação interativa (Swagger UI) estará disponível no seu navegador:
