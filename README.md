@@ -20,11 +20,10 @@ Este projeto é uma API RESTful para gerenciamento de funcionários, implementan
 Para rodar a API em seu ambiente local, siga os passos abaixo:
 
 Pré-requisitos
-JDK 21 ou superior instalado.
 
-Um servidor MySQL acessível.
-
-Maven configurado (ou use a integração de sua IDE).
+* JDK 21 ou superior instalado.
+* Um servidor MySQL acessível.
+* Maven configurado (ou use a integração de sua IDE).
 
 1. Configurar o Banco de Dados
 Crie um banco de dados no MySQL (Ex: portifolio_db).
