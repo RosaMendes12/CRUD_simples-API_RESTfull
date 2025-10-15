@@ -127,8 +127,8 @@ JSON
 
 O projeto segue a estrutura padrão do Spring Boot:
 
-com.crud.portifolio.controller: Contém a classe FuncionariosController, responsável por receber e rotear as requisições HTTP (camada de apresentação).  <br>
+- com.crud.portifolio.controller: Contém a classe FuncionariosController, responsável por receber e rotear as requisições HTTP (camada de apresentação).  <br>
 
-com.crud.portifolio.entity: Contém a classe Funcionarios, que representa o modelo de dados (tabela) no banco de dados.  <br>
+- com.crud.portifolio.entity: Contém a classe Funcionarios, que representa o modelo de dados (tabela) no banco de dados.  <br>
 
-com.crud.portifolio.repository: Contém a interface FuncionariosRepository que, ao estender JpaRepository, fornece todos os métodos de CRUD para interagir com o MySQL  <br>(camada de persistência).
+- com.crud.portifolio.repository: Contém a interface FuncionariosRepository que, ao estender JpaRepository, fornece todos os métodos de CRUD para interagir com o MySQL  <br>(camada de persistência).
