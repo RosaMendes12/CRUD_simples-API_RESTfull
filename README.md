@@ -72,21 +72,22 @@ A entidade Funcionarios representa a tabela no banco de dados com a seguinte est
 JSON
 
 {
-  "id": 1,
-  "name": "Nome Completo",
-  "idade": 30,
-  "cpf": "123.456.789-00",
-  "cargo": "Desenvolvedor Java"
+  "id": 1,  <br>
+  "name": "Nome Completo",  <br>
+  "idade": 30,  <br>
+  "cpf": "123.456.789-00",  <br>
+  "cargo": "Desenvolvedor Java"  <br>
 }
+
 Endpoints (CRUD)
 O prefixo de todos os endpoints é /funcionarios.
 
-Método HTTP	Endpoint	Descrição	Status de Sucesso
-POST	/funcionarios	Cria um novo funcionário.	200 OK (ou 201 Created)
-GET	/funcionarios	Lista todos os funcionários.	200 OK
-GET	/funcionarios/{id}	Busca um funcionário pelo ID.	200 OK
-PUT	/funcionarios/{id}	Atualiza completamente o funcionário pelo ID.	200 OK
-DELETE	/funcionarios/{id}	Remove um funcionário pelo ID.	200 OK ou 204 No Content
+Método HTTP	Endpoint	Descrição	Status de Sucesso   <br>
+POST	/funcionarios	Cria um novo funcionário.	200 OK (ou 201 Created)  <br>
+GET	/funcionarios	Lista todos os funcionários.	200 OK   <br>
+GET	/funcionarios/{id}	Busca um funcionário pelo ID.	200 OK   <br>
+PUT	/funcionarios/{id}	Atualiza completamente o funcionário pelo ID.	200 OK   <br>
+DELETE	/funcionarios/{id}	Remove um funcionário pelo ID.	200 OK ou 204 No Content   <br>
 
 
 Exemplo de Requisição POST (Criação)
