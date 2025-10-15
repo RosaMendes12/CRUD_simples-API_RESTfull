@@ -121,6 +121,7 @@ JSON
   "cargo": "Gerente de RH"   <br>
   
 }
+ <br>
 ⚙️ **Estrutura do Projeto**
 O projeto segue a estrutura padrão do Spring Boot:
 
