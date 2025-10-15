@@ -2,7 +2,7 @@
 
 Este projeto é uma API RESTful para gerenciamento de funcionários, implementando todas as operações CRUD (Create, Read, Update, Delete). Desenvolvida com Spring Boot 3.x e Spring Data JPA, a aplicação utiliza o padrão de arquitetura em camadas para garantir a organização e escalabilidade.
 
-🛠️ #Tecnologias Utilizadas
+🛠️ # Tecnologias Utilizadas
 
 * Java	Versão 21 <br>
 * Spring Boot	Framework principal para construção da API REST. <br>
