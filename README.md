@@ -51,9 +51,10 @@ A aplicação pode ser iniciada diretamente pela sua IDE (executando a classe pr
  
 ```mvn clean package ```
 
-## Executar o arquivo JAR gerado
+###  Executar o arquivo JAR gerado
 
-java -jar target/portifolio-0.0.1-SNAPSHOT.jar <br>
+java -jar target/portifolio-0.0.1-SNAPSHOT.jar  <br>
+
 A API estará em execução na porta padrão do Spring: http://localhost:8080.<br>
 
 🧭 **Documentação e Endpoints**
