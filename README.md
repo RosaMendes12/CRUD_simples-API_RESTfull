@@ -69,7 +69,8 @@ A entidade Funcionarios representa a tabela no banco de dados com a seguinte est
 
 JSON
 
-{
+{ 
+<br>
   "id": 1,  <br>
   "name": "Nome Completo",  <br>
   "idade": 30,  <br>
