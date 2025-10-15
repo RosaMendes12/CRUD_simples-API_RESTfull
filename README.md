@@ -1,8 +1,8 @@
-🚀 Portfólio CRUD API de Funcionários
+🚀 **Portfólio CRUD API de Funcionários**
 
 Este projeto é uma API RESTful para gerenciamento de funcionários, implementando todas as operações CRUD (Create, Read, Update, Delete). Desenvolvida com Spring Boot 3.x e Spring Data JPA, a aplicação utiliza o padrão de arquitetura em camadas para garantir a organização e escalabilidade.
 
-🛠️ Tecnologias Utilizadas
+🛠️ **Tecnologias Utilizadas**
 
 Java	Versão 21
 Spring Boot	Framework principal para construção da API REST.
@@ -15,7 +15,7 @@ Postman	Ferramenta utilizada para testar e interagir com os endpoints da API.
 
 
 
-📦 Configuração e Execução
+📦 **Configuração e Execução**
 Para rodar a API em seu ambiente local, siga os passos abaixo:
 
 Pré-requisitos
@@ -32,7 +32,7 @@ Configure as credenciais de acesso no arquivo de propriedades do Spring (applica
 
 Exemplo de Configuração:
 
-Properties
+**Properties**
 
 # Exemplo em application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/portifolio_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
@@ -42,7 +42,7 @@ spring.jpa.hibernate.ddl-auto=update # Cria/atualiza a tabela 'funcionarios' aut
 2. Executar a Aplicação
 A aplicação pode ser iniciada diretamente pela sua IDE (executando a classe principal) ou via terminal:
 
-Bash
+**Bash**
 
 # Empacotar o projeto
 mvn clean package
@@ -51,12 +51,12 @@ mvn clean package
 java -jar target/portifolio-0.0.1-SNAPSHOT.jar
 A API estará em execução na porta padrão do Spring: http://localhost:8080.
 
-🧭 Documentação e Endpoints
+🧭 **Documentação e Endpoints**
 Após a execução, a documentação interativa (Swagger UI) estará disponível no seu navegador:
 
-🔗 Documentação (Swagger UI): http://localhost:8080/swagger-ui.html
+🔗 **Documentação (Swagger UI):** http://localhost:8080/swagger-ui.html
 
-Modelo de Dados (Funcionarios)
+**Modelo de Dados (Funcionarios)**
 A entidade Funcionarios representa a tabela no banco de dados com a seguinte estrutura:
 
 JSON
@@ -78,7 +78,7 @@ GET	/funcionarios/{id}	Busca um funcionário pelo ID.	200 OK
 PUT	/funcionarios/{id}	Atualiza completamente o funcionário pelo ID.	200 OK
 DELETE	/funcionarios/{id}	Remove um funcionário pelo ID.	200 OK ou 204 No Content
 
-Exportar para as Planilhas
+
 Exemplo de Requisição POST (Criação)
 URL: POST http://localhost:8080/funcionarios
 
@@ -105,7 +105,7 @@ JSON
   "cpf": "000.111.222-33",
   "cargo": "Gerente de RH"
 }
-⚙️ Estrutura do Projeto
+⚙️ **Estrutura do Projeto**
 O projeto segue a estrutura padrão do Spring Boot:
 
 com.crud.portifolio.controller: Contém a classe FuncionariosController, responsável por receber e rotear as requisições HTTP (camada de apresentação).
