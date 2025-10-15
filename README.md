@@ -96,11 +96,13 @@ Body (JSON):
 JSON
 
 {
-  "name": "Maria Oliveira",
-  "idade": 28,
-  "cpf": "000.111.222-33",
-  "cargo": "Analista de RH"
+  "name": "Maria Oliveira",  <br>
+  "idade": 28,   <br>
+  "cpf": "000.111.222-33",   <br>
+  "cargo": "Analista de RH"    <br>
 }
+
+
 Exemplo de Requisição PUT (Atualização)
 URL: PUT http://localhost:8080/funcionarios/1
 
