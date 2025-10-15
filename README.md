@@ -16,6 +16,7 @@ Postman	Ferramenta utilizada para testar e interagir com os endpoints da API.
 
 
 📦 **Configuração e Execução**
+
 Para rodar a API em seu ambiente local, siga os passos abaixo:
 
 Pré-requisitos
