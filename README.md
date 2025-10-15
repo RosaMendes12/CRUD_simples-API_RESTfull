@@ -61,9 +61,7 @@ A aplicação pode ser iniciada diretamente pela sua IDE (executando a classe pr
 
 Após a execução, a documentação interativa (Swagger UI) estará disponível no seu navegador:
 
-🔗 **Documentação (Swagger UI):** 
-
-http://localhost:8080/swagger-ui.html
+🔗 **Documentação (Swagger UI):**  http://localhost:8080/swagger-ui.html
 
 **Modelo de Dados (Funcionarios)**
 
