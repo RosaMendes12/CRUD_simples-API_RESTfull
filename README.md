@@ -1,8 +1,8 @@
-🚀 **Portfólio CRUD API de Funcionários**
+🚀 #Portfólio CRUD API de Funcionários
 
 Este projeto é uma API RESTful para gerenciamento de funcionários, implementando todas as operações CRUD (Create, Read, Update, Delete). Desenvolvida com Spring Boot 3.x e Spring Data JPA, a aplicação utiliza o padrão de arquitetura em camadas para garantir a organização e escalabilidade.
 
-🛠️ **Tecnologias Utilizadas**
+🛠️ #Tecnologias Utilizadas
 
 * Java	Versão 21 <br>
 * Spring Boot	Framework principal para construção da API REST. <br>
@@ -15,7 +15,7 @@ Este projeto é uma API RESTful para gerenciamento de funcionários, implementan
 
 
 
-📦 **Configuração e Execução**
+📦 #Configuração e Execução
 
 Para rodar a API em seu ambiente local, siga os passos abaixo:
 
@@ -32,20 +32,22 @@ Configure as credenciais de acesso no arquivo de propriedades do Spring (applica
 
 Exemplo de Configuração:
 
-**Properties**
+#Properties
 
-# Exemplo em application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/portifolio_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
-spring.datasource.username=seu_usuario_mysql
-spring.datasource.password=sua_senha_mysql
-spring.jpa.hibernate.ddl-auto=update # Cria/atualiza a tabela 'funcionarios' automaticamente
-2. Executar a Aplicação
+ ##Exemplo em application.properties
+spring.datasource.url=jdbc:mysql://localhost:3306/portifolio_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC <br>
+spring.datasource.username=seu_usuario_mysql<br>
+spring.datasource.password=sua_senha_mysql<br>
+spring.jpa.hibernate.ddl-auto=update # Cria/atualiza a tabela 'funcionarios' automaticamente<br>
+
+**2. Executar a Aplicação**
 A aplicação pode ser iniciada diretamente pela sua IDE (executando a classe principal) ou via terminal:
 
 **Bash**
 
-# Empacotar o projeto
-mvn clean package
+ **Empacotar o projeto**
+ 
+```mvn clean package ```
 
 # Executar o arquivo JAR gerado
 java -jar target/portifolio-0.0.1-SNAPSHOT.jar
