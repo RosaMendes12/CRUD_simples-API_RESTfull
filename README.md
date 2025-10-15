@@ -27,9 +27,9 @@ Pré-requisitos
 
 **1. Configurar o Banco de Dados**
 
-Crie um banco de dados no MySQL (Ex: portifolio_db).
+* Crie um banco de dados no MySQL (Ex: portifolio_db).
 
-Configure as credenciais de acesso no arquivo de propriedades do Spring (application.properties ou application.yml).
+* Configure as credenciais de acesso no arquivo de propriedades do Spring (application.properties ou application.yml).
 
 Exemplo de Configuração:
 
