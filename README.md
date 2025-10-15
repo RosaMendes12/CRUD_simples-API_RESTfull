@@ -5,12 +5,12 @@ Este projeto é uma API RESTful para gerenciamento de funcionários, implementan
 🛠️ **Tecnologias Utilizadas**
 
 Java	Versão 21 <br>
-Spring Boot	Framework principal para construção da API REST.
-Spring Data JPA	Para persistência de dados e operações CRUD simplificadas.
-MySQL	Banco de dados relacional utilizado para armazenamento.
-Lombok	Biblioteca para reduzir código boilerplate (getters, setters, construtores).
-SpringDoc OpenAPI	Gera a documentação automática (Swagger UI) para testar os endpoints.
-Maven	Gerenciador de dependências e build.
+Spring Boot	Framework principal para construção da API REST. <br>
+Spring Data JPA	Para persistência de dados e operações CRUD simplificadas.<br>
+MySQL	Banco de dados relacional utilizado para armazenamento.<br>
+Lombok	Biblioteca para reduzir código boilerplate (getters, setters, construtores).<br>
+SpringDoc OpenAPI	Gera a documentação automática (Swagger UI) para testar os endpoints. <br>
+Maven	Gerenciador de dependências e build.<br>
 Postman	Ferramenta utilizada para testar e interagir com os endpoints da API.
 
 
